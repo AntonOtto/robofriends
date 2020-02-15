@@ -12,9 +12,6 @@ const CardList = ({robots}) => {
         />
         );
     });
-    if (true) {
-        throw new Error('Nooooooo');
-    }
     return (
     <div>
         {cardComponent}
